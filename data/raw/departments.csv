@@ -1,0 +1,9 @@
+department_id,department_name,specialty_group,facility_id
+DEPT-01,Emergency,Emergency & Acute,FAC-01
+DEPT-02,Cardiology,Cardiovascular,FAC-01
+DEPT-03,Orthopaedics,Musculoskeletal,FAC-01
+DEPT-04,Paediatrics,Women & Child,FAC-01
+DEPT-05,General Medicine,General & Internal,FAC-02
+DEPT-06,Diagnostics & Imaging,Diagnostics,FAC-02
+DEPT-07,Obstetrics & Gynaecology,Women & Child,FAC-02
+DEPT-08,Physiotherapy,Rehabilitation,FAC-02

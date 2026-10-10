@@ -1,0 +1,49 @@
+# ---------------------------------------------------------------------------
+# Healthcare Operations Analytics Platform — ignore rules
+# ---------------------------------------------------------------------------
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/coverage/
+*.tsbuildinfo
+
+# Local analytical store (regenerable: `make pipeline`)
+data/processed/*.duckdb
+data/processed/*.duckdb.wal
+data/processed/*.duckdb.tmp
+data/processed/parquet/
+
+# Local environment / secrets
+.env
+.env.local
+.env.*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Playwright
+frontend/test-results/
+frontend/playwright-report/
+frontend/.playwright/
+
+# Build artefacts
+dist/
+*.zip
